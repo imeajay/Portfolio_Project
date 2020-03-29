@@ -54,15 +54,15 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={feb2019}
-              endYear={nov2019}
+              startYear={2019}
+              endYear={2019}
               jobName="World Quant LLC"
               jobDescription="Developed alphas"
               />
 
               <Experience
-                startYear={may2019}
-                endYear={july2016}
+                startYear={2019}
+                endYear={2019}
                 jobName="Internship"
                 jobDescription="Worked on Identity Resolution"
                 />
