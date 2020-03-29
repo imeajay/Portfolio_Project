@@ -43,7 +43,7 @@ class Resume extends Component {
               startYear={2015}
               endYear={2020}
               schoolName="IIT KHARAGPUR"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription="It is one of best institute in india"
                />
 
                <Education
