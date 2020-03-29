@@ -57,14 +57,14 @@ class Resume extends Component {
               startYear={2019}
               endYear={2019}
               jobName="World Quant LLC"
-              jobDescription="Developed alphas"
+              jobDescription="Developed alphas using statistical arbitrage"
               />
 
               <Experience
                 startYear={2019}
                 endYear={2019}
                 jobName="Internship"
-                jobDescription="Worked on Identity Resolution"
+                jobDescription="Worked on Identity Resolution "
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
