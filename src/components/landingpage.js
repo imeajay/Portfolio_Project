@@ -31,7 +31,7 @@ class Landing extends Component {
 
           {/* Freecodecamp */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+            <i className="fa fa-facebook-camp" aria-hidden="true" />
           </a>
 
           {/* Youtube */}
