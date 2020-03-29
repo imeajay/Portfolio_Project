@@ -6,10 +6,10 @@ class About extends Component {
   render() {
     return(
     <div>
-    <div >
+    <div className="aboutimg">
       <img src="/img/mypic.jpg" alt="ajay logo" className='aboutimage'/>      
     </div>
-    <h1>
+    <h1 className="myname">
       About Ajay kumar Singh 
     </h1>
     <br/>
