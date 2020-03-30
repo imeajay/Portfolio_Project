@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 
+
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
+      <div className="contact-body" >
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ajay Kumar Singh</h2>
@@ -37,7 +38,7 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton',marginleft:'2'}}>
                     <i className="fa fa-linkedin" aria-hidden="true"/>
                     <p3 align="right">  <a href="https://www.linkedin.com/in/ajay-kumar-singh-7a583a139/">LinkedIn</a></p3>
@@ -49,15 +50,15 @@ class Contact extends Component {
                     <i className="fa fa-facebook" aria-hidden="true"/>
                     <p3 align="right"><a href="https://www.facebook.com/ajayk6804">Facebook</a></p3>
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
 
 
 
               </List>
             </div>
           </Cell>
-        </Grid>
-      </div>
+        </Grid> 
+        </div>
     )
   }
 }

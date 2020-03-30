@@ -17,6 +17,7 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       
       return(
+    
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -66,12 +67,14 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        
 
 
       )
     } else if(this.state.activeTab === 1) {
       
       return (
+      
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -121,10 +124,12 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        
       )
     } else if(this.state.activeTab === 2) {
       
       return (
+        
         <div>
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -142,12 +147,14 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        
       )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div><h1>This is MongoDB</h1></div>
-      )
-    }
+    } 
+    // else if(this.state.activeTab === 3) {
+    //   return (
+    //     <div><h1>This is MongoDB</h1></div>
+    //   )
+    // }
 
   }
 
@@ -161,7 +168,7 @@ class Projects extends Component {
           <Tab>Python</Tab>
           <Tab>Data Science</Tab>
           <Tab>React</Tab>
-          <Tab>MongoDB</Tab>
+          {/* <Tab>MongoDB</Tab> */}
         </Tabs>
 
 
@@ -170,7 +177,6 @@ class Projects extends Component {
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
 
       </div>
     )

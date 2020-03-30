@@ -31,7 +31,7 @@
 
 .contact-body {
   margin: auto;
-  position: fixed;
+  position: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -78,33 +78,33 @@
   border-radius: 10px;
 }
 
-.banner-text {
+/* .banner-text {
   background-color: black;
   opacity: .8;
   width: 75%;
   margin:auto;
   border-radius: 10px;
-}
+} */
 
-.banner-text h1 {
+/* .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
-}
+} */
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted black;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p {
+/* .banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
-}
+} */
 
-.social-links {
+/* .social-links {
 
   display: flex;
   justify-content: space-between;
@@ -116,7 +116,7 @@
   color: white;
   font-size: 5em;
   padding: 8px;
-}
+} */
 /* about page */
 .aboutimage {
   vertical-align: top;
@@ -130,4 +130,42 @@
  top: 150px; 
  text-align: top;
  width: 50%; 
+}
+
+.footer-element{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+
+
+}
+.footer-element i{
+  color: rgb(60, 20, 202);
+  font-size: 3em;
+  padding: 8px;
+}
+/* .landing-footer{
+  height: 5cm;
+  margin-top: 80%;
+  background-color:black;
+}
+.resume-footer{
+  height: 3cm;
+  margin:auto;
+  background-color:black;
+}
+.about-footer{
+  height: 3cm;
+  margin-top:7cm;
+  background-color:black;
+}
+.contact-footer{
+  height: 3cm;
+  margin-top: 0.1cm;
+  background-color:black;
+} */
+.footer{
+  height: 5cm;
+  background-color:black;
 }

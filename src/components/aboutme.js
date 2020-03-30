@@ -9,19 +9,10 @@ class About extends Component {
     <div className="aboutimg">
       <img src="/img/mypic.jpg" alt="ajay logo" className='aboutimage'/>      
     </div>
-    <h1 className="myname">
-      About Ajay kumar Singh 
-    </h1>
+    <h3 style={{fontSize:'8'}}> &nbsp;About Ajay kumar Singh </h3>
     <br/>
-    <p>I’m a student at IIT Kharagpur, pursuing a dual degree (B. Tech + M. Tech) in Engineering. I am a Machine Learning and Data science enthusiast. I am also very interested  in developing applications.</p>
+    <p>&nbsp;&nbsp;&nbsp;  I’m a student at <strong>IIT Kharagpur</strong>, pursuing a dual degree (B. Tech + M. Tech) in Engineering. I am a Machine Learning and Data science enthusiast. I am also very interested  in developing applications.</p>
 
-
-    <div>
-    <hr/>
-      <h1>
-        Contact Me
-      </h1>
-    </div>
     </div>
     
 

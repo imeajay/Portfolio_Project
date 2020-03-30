@@ -5,6 +5,7 @@ import Experience from './experience';
 import Skills from './skills';
 
 
+
 class Resume extends Component {
   render() {
     return(
@@ -43,7 +44,7 @@ class Resume extends Component {
               startYear={2015}
               endYear={2020}
               schoolName="IIT KHARAGPUR"
-              schoolDescription="It is one of best institute in india"
+              schoolDescription="Dual Degree(B.Tech + M.Tech) from IIT KHARAGPUR "
                />
 
                <Education
