@@ -79,7 +79,7 @@
 
 .avatar-img {
   height: 200px;
-  padding-top: auto;
+  padding-top: 1cm;
   border-radius:100%;
   opacity: 0.5;
 }
