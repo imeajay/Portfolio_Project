@@ -13,7 +13,7 @@ class Landing extends Component {
           <Cell col={12}>
             <div className="banner-text" style={{width: '100%', height: '100%'}}>
             <Particles className='particle-js' style={{width: '100%', height: '100%',}} params={{ particles: { number: { value: 200, density: { enable: true, value_area: 1000, } }, }, }}/> 
-            <img className="avatar-img" src="/img/mypic.jpg" alt="my pic " />
+            <img className="avatar-img" src="/img/mypic3.jpg" alt="my pic " />
 
             <h4> 
             Hi, This is Ajay Singh

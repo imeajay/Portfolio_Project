@@ -33,7 +33,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>ajaysingh97.iitkgp@gmail.com</p>
             <h5>Web</h5>
-            <a href="https://ajay-portfolio.herokuapp.com">https://ajay-portfolio.herokuapp.com </a> 
+            <a href="https://ajay-singh.herokuapp.com" target='blank'>my website </a> 
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
